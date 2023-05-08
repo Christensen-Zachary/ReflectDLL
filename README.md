@@ -1,8 +1,8 @@
 # ReflectDLL
 
 This project is to be used as a command line tool. 
+This project creates a digraph of dependencies for classes found within the same DLL.
 By giving the path to a DLL built using .NET, each classes dependencies are saved in a CSV file.
-Dependencies are only saved when the type of the dependency can be found within the same DLL.
 
 Example usage
 
