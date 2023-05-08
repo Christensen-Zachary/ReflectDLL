@@ -3,6 +3,7 @@
 This project is to be used as a command line tool. 
 This project creates a digraph of dependencies for classes found within the same DLL.
 By giving the path to a DLL built using .NET, each classes dependencies are saved in a CSV file.
+A python script is then used to parse the CSV file into a pdf of graph.
 
 Example usage
 
